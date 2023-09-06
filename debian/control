@@ -1,0 +1,13 @@
+Source: g4music
+Section: Multimedia
+Priority: optional
+Maintainer: Mauna Linux <dev@maunalinux.top>
+Build-Depends: valac, libgstreamer1.0-dev, libgstreamer-plugins-base1.0-dev, libadwaita-1-dev, libgtk-4-dev, ninja-build, meson, libc6 (>= 2.36)
+Standards-Version: 3.9.6
+Homepage: https://github.com/maunalinux/g4music
+
+Package: g4music
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: g4music
+ A beautiful, fast, fluent, light weight music player written in GTK4.

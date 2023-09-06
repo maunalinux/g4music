@@ -1,0 +1,7 @@
+.flatpak-builder
+build
+debian/g4music
+debian/.debhelper
+debian/debhelper-build-stamp
+debian/files
+debian/g4music.substvars

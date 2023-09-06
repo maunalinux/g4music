@@ -1,0 +1,23 @@
+
+.title-large {
+    font-size: 115%;
+    font-weight: 550;
+}
+
+.title-leading {
+    font-weight: 500;
+}
+
+.title-secondly {
+    font-size: 92.5%;
+}
+
+searchbar revealer box {
+    box-shadow: none;
+    background-color: transparent;
+}
+
+tabbar revealer box {
+    box-shadow: none;
+    background-color: transparent;
+}

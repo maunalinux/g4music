@@ -1,0 +1,47 @@
+{
+    "app-id": "com.github.neithern.g4music",
+    "runtime": "org.gnome.Platform",
+    "runtime-version": "44",
+    "sdk": "org.gnome.Sdk",
+    "command": "g4music",
+    "finish-args": [
+        "--device=dri",
+        "--share=ipc",
+        "--share=network",
+        "--socket=fallback-x11",
+        "--socket=pulseaudio",
+        "--socket=wayland",
+        "--filesystem=xdg-download:ro",
+        "--filesystem=xdg-music:ro",
+        "--filesystem=xdg-run/gvfsd",
+        "--filesystem=xdg-run/pipewire-0:ro",
+        "--own-name=org.mpris.MediaPlayer2.G4Music",
+        "--talk-name=org.gnome.Shell",
+        "--talk-name=org.gtk.vfs.*"
+    ],
+    "cleanup": [
+        "/include",
+        "/lib/pkgconfig",
+        "/man",
+        "/share/doc",
+        "/share/gtk-doc",
+        "/share/man",
+        "/share/pkgconfig",
+        "/share/vala",
+        "*.la",
+        "*.a"
+    ],
+    "modules": [
+        {
+            "name": "g4music",
+            "builddir": true,
+            "buildsystem": "meson",
+            "sources": [
+                {
+                    "type": "dir",
+                    "path": "../../"
+                }
+            ]
+        }
+    ]
+}

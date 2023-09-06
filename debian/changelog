@@ -1,0 +1,78 @@
+g4music (3.3mauna1) mauna; urgency=medium
+
+  * New upstream release for Mauna Linux
+  * Make seek_bar auto width.
+  * UI improvement and fixing.
+  * Add translation: Ukrainian, Finnish, Indonesian, Basque.
+  * Update translation: Spanish, French, German, Turkish, Russian.
+
+ -- Mauna Linux <dev@maunalinux.top>  Wed, 06 Sep 2023 17:10:02 -0300
+
+g4music (3.1amarok1) kapok; urgency=medium
+
+  * New upstream version for Amarok Linux OS
+  * l10n: update pot and Translations
+  * Group by album-artist, sort albums by year/title.
+  * Save and restore the last library view.
+  * Open a new page when play all music of an artist/album.
+  * Stay in the current list when playing the whole album.
+  * Show the local playlists.
+  * Optimize searching.
+  * Introduce new translations
+
+ -- Amarok Linux <packages@amaroklinux.org>  Sun, 06 Aug 2023 17:23:29 -0300
+
+g4music (3.0amarok1) kapok; urgency=medium
+
+  * New upstream version for Amarok Linux OS
+  * update 3.0
+
+ -- Amarok Linux <packages@amaroklinux.org>  Tue, 01 Aug 2023 22:28:57 -0300
+
+g4music (2.1-1amarok1) kapok; urgency=medium
+
+  * New upstream release for Amarok Linux OS
+  * update 2.1
+
+ -- Amarok Linux <packages@amaroklinux.org>  Wed, 21 Jun 2023 10:56:56 -0300
+
+g4music (1.11-1amarok1) kapok; urgency=medium
+
+  * New upstream version for Amarok Linux OS
+  * update 1.11
+
+ -- Amarok Linux <packages@amaroklinux.org>  Wed, 21 Jun 2023 10:47:00 -0300
+
+g4music (1.8.2-1amarok1) kapok; urgency=medium
+
+  * New upstream version for Amarok Linux OS
+  * update
+
+ -- Amarok Linux <packages@amaroklinux.org>  Sun, 05 Feb 2023 11:19:22 -0300
+
+g4music (1.8.2-1amarok) kapok; urgency=medium
+
+  * New upstream version for Amarok Linux OS
+
+ -- Amarok Linux <packages@amaroklinux.org>  Thu, 15 Dec 2022 12:12:10 -0300
+
+g4music (1.6.1-1amarok) stable; urgency=medium
+
+  * Initial Release for Amarok Linux OS
+
+    [Features]
+  * Supports most music file types, samba and any other remote protocols (thanks to great GIO and GStreamer).
+  * Fast loading and parsing thousands of music files in very few seconds.
+  * Low memory usage for huge playlist with album covers, no thumbnail caches to store.
+  * Sorts by album/artist/title or shuffle, supports full-text searching.
+  * Supports embedded album art or external images as album cover, embedded can be exported.
+  * Gaussian blurred cover as window background, follows GNOME 42 light/dark mode.
+  * Supports drag-drop from GNOME Files, showing music in Files.
+  * Supports audio peaks visualizer.
+  * Supports gapless playback.
+  * Supports ReplayGain track mode.
+  * Supports pipewire audio sink.
+  * Supports MPRIS control.
+  * Only need less than 400KB to install it.
+
+ -- Amarok Linux <packages@amaroklinux.org>  Tue, 06 Sep 2022 22:27:40 -0300

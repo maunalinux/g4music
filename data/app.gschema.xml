@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="g4music">
+  <schema id="@app_id@" path="/com/github/neithern/g4music/">
+    <key name="dark-theme" type="b">
+      <default>false</default>
+      <summary>Prefer dark theme</summary>
+    </key>
+    <key name="blur-mode" type="u">
+      <range min="0" max="2"/>
+      <default>1</default>
+      <summary>Background blur mode</summary>
+    </key>
+    <key name="compact-playlist" type="b">
+      <default>false</default>
+      <summary>Compact playlist view</summary>
+    </key>
+    <key name="grid-mode" type="b">
+      <default>true</default>
+      <summary>Grid view for artists/albums</summary>
+    </key>
+    <key name="library-path" type="as">
+      <default>[]</default>
+    </key>
+    <key name="monitor-changes" type="b">
+      <default>false</default>
+      <summary>Monitor local file changes</summary>
+    </key>
+    <key name="music-dir" type="s">
+      <default>''</default>
+      <summary>Load music from folder</summary>
+    </key>
+    <key name="remote-thumbnail" type="b">
+      <default>false</default>
+      <summary>Load thumbnails for non-local files</summary>
+    </key>
+    <key name="remain-progress" type="b">
+      <default>false</default>
+      <summary>Show remain progress</summary>
+    </key>
+    <key name="audio-sink" type="s">
+      <default>''</default>
+      <summary>Prefer audio sink</summary>
+    </key>
+    <key name="play-background" type="b">
+      <default>false</default>
+      <summary>Keep playing after window closed</summary>
+    </key>
+    <key name="gapless-playback" type="b">
+      <default>true</default>
+      <summary>Enable gapless playback</summary>
+    </key>
+    <key name="replay-gain" type="u">
+      <range min="0" max="2"/>
+      <default>0</default>
+      <summary>Normalize volume with ReplayGain</summary>
+    </key>
+    <key name="rotate-cover" type="b">
+      <default>true</default>
+      <summary>Rotate album cover</summary>
+    </key>
+    <key name="peak-characters" type="s">
+      <default>'='</default>
+      <summary>Peak characters</summary>
+    </key>
+    <key name="show-peak" type="b">
+      <default>true</default>
+      <summary>Show audio peak level</summary>
+    </key>
+    <key name="sort-mode" type="u">
+      <range min="0" max="5"/>
+      <default>2</default>
+      <summary>Sort Mode</summary>
+    </key>
+    <key name="width" type="i">
+      <default>800</default>
+    </key>
+    <key name="height" type="i">
+      <default>600</default>
+    </key>
+    <key name="played-uri" type="s">
+      <default>''</default>
+    </key>
+    <key name="volume" type="d">
+      <default>1</default>
+    </key>
+  </schema>
+</schemalist>
