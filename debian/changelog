@@ -1,3 +1,10 @@
+g4music (3.3mauna2) mauna; urgency=medium
+
+  * New upstream version
+  * update
+
+ -- Mauna Linux <dev@maunalinux.top>  Thu, 26 Oct 2023 23:46:46 -0300
+
 g4music (3.3mauna1) mauna; urgency=medium
 
   * New upstream release for Mauna Linux
