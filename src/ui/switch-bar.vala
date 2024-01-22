@@ -8,7 +8,6 @@ namespace G4 {
 
         public SwitchBar () {
             _box.hexpand = true;
-            _box.add_css_class ("toolbar");
             _revealer.child = _box;
             _revealer.reveal_child = true;
             add_child (new Gtk.Builder (), _revealer, null);
@@ -88,8 +87,10 @@ namespace G4 {
                 if (find_child_by_name (page.name) == null) {
                     var button = new Gtk.ToggleButton ();
                     button.active = page.child == visible_child;
-                    button.name = page.name;
                     button.icon_name = page.icon_name;
+                    button.margin_start = 2;
+                    button.margin_end = 2;
+                    button.name = page.name;
                     button.tooltip_text = page.title;
                     button.toggled.connect (() => {
                         if (button.active && _stack.visible_child_name != button.name)
