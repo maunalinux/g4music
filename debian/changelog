@@ -1,3 +1,14 @@
+g4music (3.5.1mauna1) mauna; urgency=medium
+
+  * New upstream release
+  * Fix "playing" state for music entries.
+  * Use Overlay to avoid changing list's width.
+  * Sorting albums by Disc Number.
+  * Add translation: Romanian, Danish, Slovenian.
+  * Update translation: Belarusian, Occitan.
+
+ -- Mauna Linux <dev@maunalinux.top>  Mon, 22 Jan 2024 12:26:12 -0300
+
 g4music (3.3mauna2) mauna; urgency=medium
 
   * New upstream version
