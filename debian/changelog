@@ -1,3 +1,11 @@
+g4music (3.6.2mauna1) mauna; urgency=medium
+
+  * New upstream release
+  * Optimize pressing Space to play/pause
+  * Add translation: Persian
+
+ -- Mauna Linux <dev@maunalinux.top>  Thu, 06 Jun 2024 19:26:30 -0300
+
 g4music (3.5.1mauna1) mauna; urgency=medium
 
   * New upstream release
